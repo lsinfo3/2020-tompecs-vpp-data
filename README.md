@@ -9,6 +9,6 @@ Measurement data and R-based preprocessing scripts.
     * Latency histograms are stored in `histogram-*.csv` files. The same encoding as above applies regarding scenario and rate. 
 * `code`: R scripts for preprocessing the raw data.
   * `common.r`: imports and general convenience functions.
-  * `001_preproc_service_time_data.r`: calculates batch service times and exports linear fits of the batch service time per configuration.
+  * `001_preproc_service_time_data.r`: calculates batch service times and exports linear fits of the batch service time per configuration into the `stats` subfolder.
   * `002_export_batch_size_distributions.r`: calculates and exports batch size distributions for all configurations.
   * `003_preproc_latency_data.r`: calculates average / median latency per configuration based on histogram data.
